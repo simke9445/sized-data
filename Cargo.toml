@@ -1,0 +1,18 @@
+[package]
+name = "sized-data"
+version = "0.1.0"
+authors = ["https://github.com/simke9445"]
+description = "Sized data trait + macro implementation for use in Anchor framework."
+documentation = "https://docs.rs/sized-data"
+license = "MIT"
+edition = "2021"
+keywords = ["proc-macro", "derive", "size", "struct"]
+repository = "https://github.com/simke9445/sized-data"
+readme = "./README.md"
+homepage = "https://github.com/simke9445/sized-data"
+categories = []
+rust-version = "1.83.0"
+
+[dependencies]
+sized_data_derive = { version = "0.1.0" }
+anchor-lang = "0.30.1"
